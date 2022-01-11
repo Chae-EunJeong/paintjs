@@ -1,1 +1,1 @@
-# Git test Repository
+# Painting Board made with Vanilla JS
