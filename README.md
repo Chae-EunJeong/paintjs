@@ -1,9 +1,16 @@
 # Painting Board made with Vanilla JS
 
 - Vanilla JavaScript로 그림판 만들기
-
+## 기본 기능
+- paint : canvas에 line 그리기
+  - 선택된 range 굵기로, 선택된 색상으로 선이 그려짐 
+- fill : canvas 전체 색을 채우기
+  - 선택된 색상으로 전체 색이 채워짐 
+- erase : 캔버스 위의 라인을 지우기
+  - 선택된 굵기 * 1.5의 굵기로 지워짐. 선택된 캔버스 배경 색으로 지우는 것이라 선만 지울 수 있음. 
+- clear : 전체 캔버스를 기본 white의 캔버스로 초기화
+- save : 캔버스 상태를 png 파일로 저장
 ## code
-
 - JS 변수 타입
   - const : 큼직한거. document.getElement~ 혹은 canvas.getContext 로 얻어오는 것들 - 함수 안에서 변수 생성할 때.
   - let : 코드 전체에서 가끔 쓰이는 것.
